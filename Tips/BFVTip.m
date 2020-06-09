@@ -10,4 +10,20 @@
 
 @implementation BFVTip
 
+//MARK: - init Method
+- (instancetype)initWithName:(NSString *)name
+                       total:(double)total
+               tipPercentage:(double)tipPercentage
+                  splitCount:(int)splitCount
+{
+    self = [super init];
+    if (self != nil) {
+        
+        _name = name;
+        _total = total;
+        _tipPercentage = tipPercentage;
+        _splitCount = splitCount;
+    }
+    return self;
+}
 @end

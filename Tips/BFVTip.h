@@ -12,6 +12,22 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BFVTip : NSObject
 
+//TIp Amount - Double
+// total - Double
+// tip percentage - Double
+// name - NSString
+// number of people - int
+
+@property double total;
+@property double tipPercentage;
+@property NSString *name;
+@property int splitCount;
+
+- (instancetype)initWithName:(NSString *)name
+                       total:(double)total
+               tipPercentage:(double)tipPercentage
+                  splitCount:(int)splitCount; 
 @end
 
 NS_ASSUME_NONNULL_END
+
