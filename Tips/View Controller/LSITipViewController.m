@@ -8,6 +8,7 @@
 
 #import "LSITipViewController.h"
 
+// Objective-c: class extension from swift extension.
 @interface LSITipViewController ()
 
 // Private Properties
